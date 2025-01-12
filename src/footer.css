@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0%;
+    background-color: aquamarine !important;
+    flex-wrap: wrap;
+}
+footer input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+footer button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
