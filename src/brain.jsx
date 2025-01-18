@@ -8,7 +8,7 @@ export default function Brain() {
     async function generateText(prompt) {
         setLoading(true);
         try{
-            const genAI = new GoogleGenerativeAI("your api key");
+            const genAI = new GoogleGenerativeAI("AIzaSyBj2Joz18bUz9ny_ih4j9Sob1dK46ee4YQ");
             const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
             const result = await model.generateContent(prompt);
             console.log(result.response.text());
