@@ -1,3 +1,5 @@
+// the geminni api is to be pasted here
+
 import React, { useState } from 'react'
 import Footer from "./footer"
 import { GoogleGenerativeAI } from "@google/generative-ai";
