@@ -38,3 +38,6 @@ export default function Brain() {
         </>
     )
 }
+
+
+// can also use a loading icon
